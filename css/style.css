@@ -1,0 +1,48 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.center{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.clear{clear: both;}
+
+header{
+    height: 100px;
+    background-color: #3b5998;
+    padding: 20px;
+}
+
+header .logo{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+header .logo > a{
+    font-size: 26px;
+    color: white;
+}
+
+header .login{
+    float: right;
+    margin-top: 26px;
+}
+
+header .login-input{
+    display: inline-block;
+    width: min-content;
+}
+
+header label{
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
